@@ -170,12 +170,14 @@ export default {
         </section>
 
         <section class="upcoming">
+
             <div class="container text-center">
                 <h2 class="font fs-1 fw-bold m-0">Upcoming Events</h2>
                 <h5 style="color: #f4b429;" class="fw-medium pt-3 pb-5 m-0">MEET THE AUTHOR IN PERSON</h5>
+
                 <div class="row">
 
-                    <div class="col-4 pe-3 ps-3">
+                    <div class="col-4 pe-4">
                         <div class="card border-0 rounded-0">
                             <img src="../assets/img/event-05-400x240.jpg" class="card-img-top rounded-0" alt="">
                             <div class="card-body p-4">
@@ -187,7 +189,7 @@ export default {
                         </div>
                     </div>
                     
-                    <div class="col-4 pe-3 ps-3">
+                    <div class="col-4 pe-4 ps-4">
                         <div class="card border-0 rounded-0">
                             <img src="../assets/img/event-04-400x240.jpg" class="card-img-top rounded-0" alt="">
                             <div class="card-body p-4">
@@ -199,7 +201,7 @@ export default {
                         </div>
                     </div>
 
-                    <div class="col-4 pe-3 ps-3">
+                    <div class="col-4 ps-4">
                         <div class="card border-0 rounded-0">
                             <img src="../assets/img/event-07-400x240.jpg" class="card-img-top rounded-0" alt="">
                             <div class="card-body p-4">
@@ -213,6 +215,39 @@ export default {
 
                 </div>
             </div>
+            
+        </section>
+
+        <section class="newsletters">
+            
+            <div class="banner-two">    
+                <div class="container h-100 text-center">
+                    <div class="row h-100">
+                        <div class="col-3"></div>
+                        <div class="col-6">
+                            <div class="subscribe">
+                                <h2 class="audio-book text-white fs-1 mb-3">
+                                    Subscribe To My Newsletter
+                                </h2>
+                                <h6 class="read-time mt-3 mb-5">BE NOTIFIED ABOUT BOOK SIGNING TOUR DATES</h6>
+                                <form class="row g-3">
+                                    <div class="col-8 ps-5">
+                                        <input style="height: 50px;" type="text" class="form-control" placeholder="Insert your email ...*">
+                                    </div>
+                                    <div class="col-4">
+                                        <button style="height: 50px;" type="submit" class="btn text-white fw-medium meet">Subscribe</button>
+                                    </div>
+                                </form>
+                                <p style="color: #c6c4c4;" class="mt-5">
+                                    Donec fringilla nunc eu turpis dignissim, at euismod sapien tincidunt. Maecenas eleifend congue cursus.
+                                </p>
+                            </div>   
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+                </div>
+            </div>
+
         </section>
         
     </main>
@@ -242,6 +277,7 @@ export default {
     }
 
 
+    
 
     .audible, .upcoming{
         background-color: $bfg_section;
@@ -249,7 +285,6 @@ export default {
     .banner-one{
         background-image: url(../assets/img/banner.jpg);
         background-size: cover;
-        height: 600px;
     }
     .smartphone{
         margin-top: 100px;
@@ -301,5 +336,16 @@ export default {
 
     .upcoming{
         padding: 80px 0;
+    }
+    .banner-two{
+        background-image: url(../assets/img/banner-2.jpg);
+        background-size: cover;
+        height: 600px;
+    }
+    .subscribe{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 </style>
