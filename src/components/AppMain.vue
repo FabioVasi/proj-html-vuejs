@@ -14,7 +14,7 @@ export default {
 
         <section class="about">
             <div class="container text-center">
-                <h1>
+                <h1 class="font">
                     More About Damon Vaughn
                 </h1>
                 <h3 style="color: #333333;" class="mt-3 mb-5">
@@ -101,6 +101,33 @@ export default {
                 </div>
             </div>
         </section>
+
+        <section class="critics">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="card border-0">
+                            <h2 class="font mb-4 fw-bold">What The Critics Say</h2>
+                            <h6 style="color: #49a987;" class="mb-4">TESTIMONIALS FROM AROUND THE WORLD</h6>
+                        </div>
+                        <div class="testimonial text-white text-center">
+                            <div class="shadow">
+                                <h2 class="font fs-1 fw-bold border-bottom border-dark-subtle pb-5">Best Author Of His Generation</h2>
+                                <h5>
+                                    
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card border-0">
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
         
     </main>
 
@@ -109,12 +136,15 @@ export default {
 <style lang="scss" scoped>
     @use '../assets/scss/partials/variables.scss' as *;
 
-    .about{
+    .font{
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .about, .critics{
         margin: 100px 0;
     }
     h1{
         font-size: 5rem;
-        font-family: 'Times New Roman', Times, serif;
         font-style: oblique;
         font-weight: bold;
         color: $yellow;
@@ -124,6 +154,9 @@ export default {
         width: 200px;
         height: 40px;
     }
+
+
+
     .audible{
         background-color: $bfg_section;
     }
@@ -146,5 +179,27 @@ export default {
     }
     .read-time{
         color: $yellow;
+    }
+
+
+
+    .critics{
+
+    }
+    .testimonial{
+        background-image: url(../assets/img/testimonial2-2x.jpg);
+        background-size: cover;
+        height: 800px;
+        border-radius: 0 0 10rem 0;
+    }
+    .shadow{
+        background-color: rgba(0, 0, 0, 0.255);
+        background-size: cover;
+        height: 800px;
+        border-radius: 0 0 10rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 100px;
     }
 </style>
