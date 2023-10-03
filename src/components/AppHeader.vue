@@ -70,7 +70,7 @@ export default {
                 </div>               
             </div>
 
-            <div class="col-6">
+            <div style="padding-left: 150px;" class="col-6">
                 <div class="squares me-4 mb-5">
                     <div class="sales card mb-2 d-flex justify-content-center align-items-center">
                         <svg style="font-size: 24px;" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M88.7 223.8L0 375.8V96C0 60.7 28.7 32 64 32H181.5c17 0 33.3 6.7 45.3 18.7l26.5 26.5c12 12 28.3 18.7 45.3 18.7H416c35.3 0 64 28.7 64 64v32H144c-22.8 0-43.8 12.1-55.3 31.8zm27.6 16.1C122.1 230 132.6 224 144 224H544c11.5 0 22 6.1 27.7 16.1s5.7 22.2-.1 32.1l-112 192C453.9 474 443.4 480 432 480H32c-11.5 0-22-6.1-27.7-16.1s-5.7-22.2 .1-32.1l112-192z"/></svg>
@@ -122,6 +122,8 @@ export default {
         background-image: url(../assets/img/hero-07-2x.jpg);
         background-size: cover;
         height: 800px;
+        border-bottom: 1px solid black;
+        box-shadow: 0px -20px 600px 10px rgb(0, 0, 0) inset;
     }
     .pseudo_container{
         padding: 0 6rem;
@@ -152,7 +154,7 @@ export default {
     .author{
         margin-left: 10%;
         position: fixed;
-        bottom: 480px;
+        bottom: 483px;
         right: 0;
     }
     h2{
@@ -203,7 +205,7 @@ export default {
     }
     .btn{
         background-color: #49a98720;
-        width: 360px;
+        width: 280px;
         height: 50px;
     }
 </style>
