@@ -196,9 +196,6 @@ export default {
         width: 80px;
         height: 80px;
     }
-    .advertising{
-        
-    }
     .btn-group{
         border: 2px solid $green;
     }

@@ -304,9 +304,6 @@ export default {
 
 
 
-    .critics{
-
-    }
     .testimonial{
         background-image: url(../assets/img/testimonial2-2x.jpg);
         background-size: cover;
