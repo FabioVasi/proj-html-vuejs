@@ -153,7 +153,7 @@ export default {
     }
     .author{
         margin-left: 10%;
-        position: fixed;
+        position: absolute;
         bottom: 483px;
         right: 0;
     }
@@ -190,7 +190,6 @@ export default {
     .squares{
         display: flex;
         flex-direction: column;
-
         align-items: end;
     }
     .sales{
