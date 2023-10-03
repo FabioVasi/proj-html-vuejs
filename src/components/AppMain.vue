@@ -20,7 +20,7 @@ export default {
                 <h3 style="color: #333333;" class="mt-3 mb-5">
                     Damon Vaughn is a professor of psychology at the University of Toronto, a clinical psychologist and the author of the multi-million copy bestseller "The story of my life".
                 </h3>
-                <button class="border-0 text-white rounded-3 fw-bold ">
+                <button class="meet border-0 text-white rounded-3 fw-bold">
                     Meet The Author
                 </button>
             </div>
@@ -105,7 +105,7 @@ export default {
         <section class="critics">
             <div class="container">
                 <div class="row">
-                    <div class="col-8">
+                    <div class="col-8 pe-5">
                         <div class="card border-0">
                             <h2 class="font mb-4 fw-bold fs-1">What The Critics Say</h2>
                             <h6 style="color: #49a987;" class="mb-4">TESTIMONIALS FROM AROUND THE WORLD</h6>
@@ -129,9 +129,25 @@ export default {
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 ps-5 text-center">
                         <div class="card border-0">
+                            <button class="read align-self-end border-0 text-white rounded-3 fw-bold">
+                                Read All Testimonials
+                            </button>
 
+                        </div>
+                        <div class="message p-4 card rounded-0 mt-5 border-0">
+                            <h3 class="font mb-3 fw-bold fs-4 pt-3">A True Masterpierce, Bravo!</h3>
+                            <p class="mb-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint exercitationem illo quibusdam laboriosam recusandae, quaerat excepturi nesciunt quasi consectetur asperiores consequatur at unde repellendus cumque ea? Magni laborum quos molestias.
+                            </p>
+                        </div>
+                        
+                        <div class="message p-4 card rounded-0 mt-5 border-0">
+                            <h3 class="font mb-3 fw-bold fs-4 pt-3">A Unique View On The World</h3>
+                            <p class="mb-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint exercitationem illo quibusdam laboriosam recusandae, quaerat excepturi nesciunt quasi consectetur asperiores consequatur at unde repellendus cumque ea? Magni laborum quos molestias.
+                            </p>
                         </div>
                         
                     </div>
@@ -159,7 +175,7 @@ export default {
         font-weight: bold;
         color: $yellow;
     }
-    button{
+    .meet{
         background-color: $green;
         width: 200px;
         height: 40px;
@@ -211,5 +227,13 @@ export default {
         flex-direction: column;
         justify-content: center;
         padding: 100px;
+    }
+    .read{
+        background-color: $yellow;
+        width: 240px;
+        height: 40px;
+    }
+    .message{
+        background-color: $bfg_section;
     }
 </style>
