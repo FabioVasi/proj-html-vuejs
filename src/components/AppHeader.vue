@@ -1,8 +1,11 @@
 <script>
-
-
-
-const count = ref(0)
+export default {
+    data() {
+        return {
+            name: 'AppHeader'
+        }
+    }
+}
 </script>
 
 <template>
@@ -10,6 +13,5 @@ const count = ref(0)
 </template>
 
 <style>
-
 
 </style>
