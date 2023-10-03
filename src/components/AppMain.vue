@@ -17,10 +17,10 @@ export default {
                 <h1>
                     More About Damon Vaughn
                 </h1>
-                <h3 class="m">
+                <h3 style="color: #333333;" class="mt-3 mb-5">
                     Damon Vaughn is a professor of psychology at the University of Toronto, a clinical psychologist and the author of the multi-million copy bestseller "The story of my life".
                 </h3>
-                <button class="border-0 text-white">
+                <button class="border-0 text-white rounded-3 fw-bold ">
                     Meet The Author
                 </button>
             </div>
@@ -45,5 +45,7 @@ export default {
     }
     button{
         background-color: $green;
+        width: 200px;
+        height: 40px;
     }
 </style>

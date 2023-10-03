@@ -82,15 +82,15 @@ export default {
                     </div>
                 </div>
 
-                <div style="background-color: #ffffff;" class="advertising mt-3 p-5">
+                <div style="background-color: #ffffff;" class="advertising p-5">
                     <div class="d-flex flex-wrap">
                         <div class="col-6">
                             <img src="../assets/img/book-widget.png" alt="">
                         </div>
                         <div class="col-6">
-                            <h3 style="font-family: 'Times New Roman', Times, serif;" class="fs-2 fw-bold">Latest Book Release</h3>
+                            <h3 style="font-family: 'Times New Roman', Times, serif; color: #333333;" class="fs-2 fw-bold">Latest Book Release</h3>
                             <h5 style="color: #f4b429;">D. VAUGHN AUTOBIOGRAPHY</h5>
-                            <span class="fs-5 d-inline-block mt-2">Vestibulum tristique turpis in ipsum egestas lobortis. Duis maximus bibendum volutpat. Lorem ipsum dolor sit amet</span>
+                            <span style="color: #333333;" class="fs-5 d-inline-block mt-2">Vestibulum tristique turpis in ipsum egestas lobortis. Duis maximus bibendum volutpat. Lorem ipsum dolor sit amet</span>
                         </div>
                     </div>
                     
