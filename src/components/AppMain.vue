@@ -107,15 +107,25 @@ export default {
                 <div class="row">
                     <div class="col-8">
                         <div class="card border-0">
-                            <h2 class="font mb-4 fw-bold">What The Critics Say</h2>
+                            <h2 class="font mb-4 fw-bold fs-1">What The Critics Say</h2>
                             <h6 style="color: #49a987;" class="mb-4">TESTIMONIALS FROM AROUND THE WORLD</h6>
                         </div>
-                        <div class="testimonial text-white text-center">
+                        <div class="testimonial text-white text-start">
                             <div class="shadow">
                                 <h2 class="font fs-1 fw-bold border-bottom border-dark-subtle pb-5">Best Author Of His Generation</h2>
-                                <h5>
-                                    
+                                <h5 class="fw-medium mt-5">
+                                    This book will change your perspective on life
                                 </h5>
+                                <span class="d-block mt-4 mb-3">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, sequi! Itaque quam id exercitationem architecto ducimus officia mollitia ad cumque illo! Impedit nihil commodi dolorem consectetur voluptatem mollitia fugit veniam!
+                                </span>
+                                <span class="d-block">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, amet ipsa tenetur adipisci debitis eum error voluptatibus aspernatur suscipit commodi non nisi ducimus dolores, accusantium ratione tempora in labore sint.
+                                </span>
+                                <p style="font-style: inherit;" class="mt-5">
+                                    <!--La lettera E usa un font gothico che non sono riuscito a trovare-->
+                                    <span style="font-family: 'Times New Roman', Times, serif; font-size: 24px;">E</span> Justine Kilpatrick, <a style="color: #49a987; text-decoration: none;" href="#">The New York Times</a>
+                                </p>
                             </div>
                         </div>
                     </div>
