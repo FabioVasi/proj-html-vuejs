@@ -13,6 +13,7 @@ export default {
     <main id="main_app">
 
         <section class="about">
+
             <div class="container text-center">
                 <h1 class="font">
                     More About Damon Vaughn
@@ -24,9 +25,11 @@ export default {
                     Meet The Author
                 </button>
             </div>
+
         </section>
 
         <section class="audible pt-5">
+
             <div class="container mb-5">
                 <div class="row">
                     <div class="col-3">
@@ -100,9 +103,11 @@ export default {
                     </div>
                 </div>
             </div>
+
         </section>
 
         <section class="critics">
+
             <div class="container">
                 <div class="row">
                     <div class="col-8 pe-5">
@@ -129,12 +134,12 @@ export default {
                             </div>
                         </div>
                     </div>
+
                     <div class="col-4 ps-5 text-center">
                         <div class="card border-0">
-                            <button class="read align-self-end border-0 text-white rounded-3 fw-bold">
+                            <button class="read mt-4 align-self-end border-0 text-white rounded-3 fw-bold">
                                 Read All Testimonials
                             </button>
-
                         </div>
                         <div class="message p-4 card rounded-0 mt-5 border-0">
                             <h3 class="font mb-3 fw-bold fs-4 pt-3">A True Masterpierce, Bravo!</h3>
@@ -142,17 +147,26 @@ export default {
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint exercitationem illo quibusdam laboriosam recusandae, quaerat excepturi nesciunt quasi consectetur asperiores consequatur at unde repellendus cumque ea? Magni laborum quos molestias.
                             </p>
                         </div>
-                        
+                        <div class="d-flex justify-content-start align-items-center mt-3">
+                            <img class="pe-4" src="../assets/img/theguardian-xsmall.png" alt="">
+                            <p class="m-0 fw-medium">Gerald Hendley, The Guardian</p>                            
+                        </div>
+
                         <div class="message p-4 card rounded-0 mt-5 border-0">
                             <h3 class="font mb-3 fw-bold fs-4 pt-3">A Unique View On The World</h3>
                             <p class="mb-4">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint exercitationem illo quibusdam laboriosam recusandae, quaerat excepturi nesciunt quasi consectetur asperiores consequatur at unde repellendus cumque ea? Magni laborum quos molestias.
                             </p>
                         </div>
+                        <div class="d-flex justify-content-start align-items-center mt-3">
+                            <img class="pe-4" src="../assets/img/globe-xsmall.png" alt="">
+                            <p class="m-0 fw-medium">Mary Maxey, The Globe And Mail</p>                            
+                        </div>
                         
                     </div>
                 </div>
             </div>
+
         </section>
         
     </main>
@@ -219,7 +233,7 @@ export default {
         border-radius: 0 0 10rem 0;
     }
     .shadow{
-        background-color: rgba(0, 0, 0, 0.255);
+        background-color: rgba(0, 0, 0, 0.360);
         background-size: cover;
         height: 800px;
         border-radius: 0 0 10rem 0;
