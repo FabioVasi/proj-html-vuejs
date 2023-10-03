@@ -12,7 +12,7 @@ export default {
 
     <header id="header_app">
 
-        <div class="ps-5 pe-5">
+        <div class="pseudo_container">
             <div class="navigation d-flex justify-content-between">
                 <div>
                     <img src="../assets/img/author-logo-round-200x205.png" alt="">
@@ -47,11 +47,20 @@ export default {
                             </a>
                         </li>
                     </ul>
-                </div>
-                
+                </div>                
             </div>
         </div>
 
+        <div class="author text-white">
+            <div class="col-5">
+                <h2>Damon Vaugh</h2>
+                <h3>
+                    Best-selling author and the most influential public intellectual in the western world right now.
+                </h3>
+                <p>- The New York Times</p>
+            </div>           
+        </div>
+            
     </header>
 
 </template>
@@ -64,6 +73,9 @@ export default {
         background-size: cover;
         height: 800px;
     }
+    .pseudo_container{
+        padding: 0 6rem;
+    }
     .navigation{
         height: 150px;
     }
@@ -71,7 +83,7 @@ export default {
         list-style: none;
     }
     li{
-        padding: 0 1.25rem;
+        padding: 0 1rem;
     }
     .active{
         color: $yellow;
@@ -86,5 +98,27 @@ export default {
     }
     svg{
         fill: white;
+    }
+    .author{
+        margin-top: 150px;
+        margin-left: 10%;
+    }
+    h2{
+        color: $yellow;
+        font-size: 5rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: oblique;
+        font-weight: bold;
+    }
+    h3{
+        font-size: 3rem;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    p{
+        color: $light-grey;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: oblique;
     }
 </style>
