@@ -1,8 +1,38 @@
 <script>
 export default {
+    name: 'AppFooter',
     data() {
         return {
-            name: 'AppFooter'
+            link: '',
+            links: [
+                {
+                    section: 'Latest Books'
+                },
+                {
+                    section: 'Upcoming Events'
+                },
+                {
+                    section: 'Recent Articles'
+                },
+                {
+                    section: 'Business Enquiries'
+                },
+                {
+                    section: 'Visit My Foundation'
+                }
+            ],
+            contact: '',
+            contacts: [
+                {
+                    info: '63 E. Studebaker Streen Bolingbrook, IL 60440'
+                },
+                {
+                    info: 'Phone: (800) 000-0000'
+                },
+                {
+                    info: 'Mobile: (800) 000-0000'
+                }
+            ],
         }
     }
 }
@@ -13,14 +43,17 @@ export default {
     <footer id="footer_app">
 
         <div class="d-flex justify-content-between align-items-start">
+            
             <div class="col-2">
                 <div class="card border-0 bg-transparent d-flex justify-content-center align-items-center pe-5">
                     <img width="150px" src="../assets/img/author-logo-round.png" alt="">
                 </div>
             </div>
+
             <div class="col-10">
                 <div class="container">
                     <div class="row g-5">
+
                         <div class="col-4">
                             <div class="card text-white border-0 bg-transparent pe-3">
                                 <h4 class="m-0 pb-4">ABOUT ME</h4>
@@ -29,58 +62,33 @@ export default {
                                 </p>
                             </div>
                         </div>
+
                         <div class="col-4">
                             <div class="card text-white border-0 bg-transparent">
                                 <h4 class="m-0 pb-4">USEFUL LINKS</h4>
                                 <ul class="list-group list-group-flush border-0 bg-transparent">
-                                    <li class="list-group-item border-0 bg-transparent">
-                                        <a class="text-white text-decoration-none" href="#">
-                                            Latest Books
-                                        </a>
-                                    </li>
-                                    <li class="list-group-item border-0 bg-transparent">
-                                        <a class="text-white text-decoration-none" href="#">
-                                            Upcoming Events
-                                        </a>
-                                    </li>
-                                    <li class="list-group-item border-0 bg-transparent">
-                                        <a class="text-white text-decoration-none" href="#">
-                                            Recent Articles
-                                        </a>
-                                    </li>
-                                    <li class="list-group-item border-0 bg-transparent">
-                                        <a class="text-white text-decoration-none" href="#">
-                                            Business Enquiries
-                                        </a>
-                                    </li>
-                                    <li class="list-group-item border-0 bg-transparent">
-                                        <a class="text-white text-decoration-none" href="#">
-                                            Visit My Foundation
-                                        </a>
+                                    <li class="list-group-item border-0 bg-transparent" v-for="link in links">
+                                        <a class="text-white text-decoration-none" href="#">{{ link.section }}</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
+
                         <div class="col-4">
+
                             <div class="card text-white border-0 bg-transparent">
                                 <h4 class="m-0 pb-4">CONTACT INFO</h4>
                                 <ul class="list-group list-group-flush border-0 bg-transparent">
-                                    <li class="list-group-item contact border-0 bg-transparent">
-                                        63 E. Studebaker Streen Bolingbrook, IL 60440
-                                    </li>
-                                    <li class="list-group-item contact border-0 bg-transparent">
-                                        Phone: (800) 000-0000
-                                    </li>
-                                    <li class="list-group-item contact border-0 bg-transparent">
-                                        Mobile: (800) 000-0000
+                                    <li class="list-group-item contact border-0 bg-transparent" v-for="contact in contacts">
+                                        {{ contact.info }}
                                     </li>
                                     <li class="list-group-item  text-white border-0 bg-transparent">
                                         <a class="text-white text-decoration-none" href="#">
                                             Email: info@your-company.com
                                         </a>
-                                    </li>
-                                                        
+                                    </li>                        
                                 </ul>
+                                
                                 <div class="pt-4">
                                     <a href="#">
                                         <svg class="icon pe-3 ps-3" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
@@ -99,10 +107,13 @@ export default {
                                     </a>
                                 </div>
                             </div>
+
                         </div>
+
                     </div>
                 </div>
-          </div>            
+          </div>
+
         </div>
 
         <div class="container">
@@ -125,6 +136,31 @@ export default {
 
 <style lang="scss" scoped>
     @use '../assets/scss/partials/variables.scss' as *;
+
+    .yellow{
+        color: $yellow;
+    }
+    .green{
+        color: $green;
+    }
+    .bg-section{
+        background-color: $bfg_section;
+    }
+    .grey-d{
+        color: $dark_grey;
+    }
+    .grey-l{
+        color: $light_grey;
+    }
+    .blue{
+        color: $blue;
+    }
+    .font{
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+
 
     #footer_app{
         background-image: url(../assets/img/footer-3.jpg);

@@ -348,9 +348,28 @@ export default {
 <style lang="scss" scoped>
     @use '../assets/scss/partials/variables.scss' as *;
 
+    .yellow{
+        color: $yellow;
+    }
+    .green{
+        color: $green;
+    }
+    .bg-section{
+        background-color: $bfg_section;
+    }
+    .grey-d{
+        color: $dark_grey;
+    }
+    .grey-l{
+        color: $light_grey;
+    }
+    .blue{
+        color: $blue;
+    }
     .font{
         font-family: 'Times New Roman', Times, serif;
     }
+
 
     .about, .critics, .dig{
         margin: 100px 0;
