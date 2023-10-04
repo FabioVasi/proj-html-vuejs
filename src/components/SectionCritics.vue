@@ -127,4 +127,8 @@ export default {
         width: 240px;
         height: 40px;
     }
+    .read:hover{
+        width: 280px;
+        height: 50px;
+    }
 </style>

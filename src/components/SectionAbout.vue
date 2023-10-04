@@ -70,4 +70,8 @@ export default {
         width: 200px;
         height: 40px;
     }
+    .meet:hover{
+        width: 280px;
+        height: 50px;
+    }
 </style>

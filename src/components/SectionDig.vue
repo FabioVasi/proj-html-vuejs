@@ -109,4 +109,23 @@ export default {
         justify-content: end;
         align-items: center;
     }
+    .me:hover{
+        width: 420px;
+        height: 520px;
+        box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.360);
+    }
+    .latest:hover{
+        width: 420px;
+        height: 520px;
+        box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.360);
+    }
+    .signing:hover{
+        width: 420px;
+        height: 520px;
+        box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.360);
+    }
+    .darkin:hover{
+        width: 420px;
+        height: 520px;
+    }
 </style>

@@ -133,4 +133,7 @@ export default {
     .audio-book{
         font-family: 'Times New Roman', Times, serif;
     }
+    .audible{
+        background-color: $bfg_section;
+    }
 </style>
