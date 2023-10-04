@@ -45,8 +45,8 @@ export default {
         <div class="d-flex justify-content-between align-items-start">
             
             <div class="col-2">
-                <div class="card border-0 bg-transparent d-flex justify-content-center align-items-center pe-5">
-                    <img width="150px" src="../assets/img/author-logo-round.png" alt="">
+                <div class="card border-0 bg-transparent d-flex justify-content-center align-items-center">
+                    <img class="ps-5" src="../assets/img/author-logo-round-200x205.png" alt="">
                 </div>
             </div>
 
@@ -116,7 +116,7 @@ export default {
 
         </div>
 
-        <div class="container">
+        <div class="container pb-4">
             <div class="row">
                 <div class="col-12">
                     <div class="card copyright pt-5 border-0 bg-transparent text-center">
@@ -126,7 +126,14 @@ export default {
                         </p>
                         
                     </div>
-                </div>
+                </div>            
+            </div>
+        </div>
+        <div class="d-flex justify-content-end">
+            <div class="up">
+                <a href="#">
+                    <svg class="chevron" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"/></svg>
+                </a>
             </div>
         </div>
 
@@ -166,7 +173,6 @@ export default {
         background-image: url(../assets/img/footer-3.jpg);
         background-size: cover;
         padding-top: 100px;
-        padding-bottom: 50px;
     }
     .contact{
         color: #c6c4c4;
@@ -178,5 +184,19 @@ export default {
     }
     .copyright{
         color: #c6c4c4;
+    }
+    .up{
+        background-color: $dark_grey;
+        padding: 10px;
+        margin-right: 100px;
+        height: 32px;
+        width: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .chevron{
+        fill: #c6c4c4;
     }
 </style>
