@@ -56,7 +56,7 @@ export default {
 
 
 
-    .about, .critics, .dig{
+    .about{
         margin: 100px 0;
     }
     h1{
