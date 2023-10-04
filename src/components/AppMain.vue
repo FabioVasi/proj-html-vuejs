@@ -1,9 +1,15 @@
 <script>
+import SectionAbout from './SectionAbout.vue';
+
 export default {
+    name: 'AppMain',
     data() {
         return {
-            name: 'AppMain'
+            
         }
+    },
+    components: {
+        SectionAbout
     }
 }
 </script>
@@ -12,21 +18,7 @@ export default {
 
     <main id="main_app">
 
-        <section class="about">
-
-            <div class="container text-center">
-                <h1 class="font">
-                    More About Damon Vaughn
-                </h1>
-                <h3 style="color: #333333;" class="mt-3 mb-5">
-                    Damon Vaughn is a professor of psychology at the University of Toronto, a clinical psychologist and the author of the multi-million copy bestseller "The story of my life".
-                </h3>
-                <button class="meet border-0 text-white rounded-3 fw-bold">
-                    Meet The Author
-                </button>
-            </div>
-
-        </section>
+        <SectionAbout/>
 
         <section class="audible pt-5">
 
