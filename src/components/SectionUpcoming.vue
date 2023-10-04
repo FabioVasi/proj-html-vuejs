@@ -15,7 +15,7 @@ export default {
 
         <div class="container text-center">
             <h2 class="font fs-1 fw-bold m-0">Upcoming Events</h2>
-            <h5 style="color: #f4b429;" class="fw-medium pt-3 pb-5 m-0">MEET THE AUTHOR IN PERSON</h5>
+            <h5 class="yellow fw-medium pt-3 pb-5 m-0">MEET THE AUTHOR IN PERSON</h5>
 
             <div class="row">
 
@@ -88,18 +88,9 @@ export default {
     }
 
 
-
-    .about, .critics, .dig{
-        margin: 100px 0;
-    }
-    .audible, .upcoming, .articles{
+    
+    .upcoming{
         background-color: $bfg_section;
-    }
-    .upcoming, .articles{
         padding: 80px 0;
     }
-
-
-
-
 </style>

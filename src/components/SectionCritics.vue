@@ -18,7 +18,7 @@ export default {
                 <div class="col-8 pe-5">
                     <div class="card border-0">
                         <h2 class="font mb-4 fw-bold fs-1">What The Critics Say</h2>
-                        <h6 style="color: #49a987;" class="mb-4">TESTIMONIALS FROM AROUND THE WORLD</h6>
+                        <h6 class="mb-4 green">TESTIMONIALS FROM AROUND THE WORLD</h6>
                     </div>
                     <div class="testimonial text-white text-start">
                         <div class="shadow">
@@ -32,9 +32,9 @@ export default {
                             <span class="d-block">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, amet ipsa tenetur adipisci debitis eum error voluptatibus aspernatur suscipit commodi non nisi ducimus dolores, accusantium ratione tempora in labore sint.
                             </span>
-                            <p style="font-style: inherit;" class="mt-5">
+                            <p class="mt-5">
                                 <!--La lettera E usa un font gothico che non sono riuscito a trovare-->
-                                <span style="font-family: 'Times New Roman', Times, serif; font-size: 24px;">E</span> Justine Kilpatrick, <a style="color: #49a987; text-decoration: none;" href="#">The New York Times</a>
+                                <span class="font fs-4">E</span> Justine Kilpatrick, <a class="text-decoration-none green" href="#">The New York Times</a>
                             </p>
                         </div>
                     </div>
@@ -46,7 +46,7 @@ export default {
                             Read All Testimonials
                         </button>
                     </div>
-                    <div class="message p-4 card rounded-0 mt-5 border-0">
+                    <div class="bg-section p-4 card rounded-0 mt-5 border-0">
                         <h3 class="font mb-3 fw-bold fs-4 pt-3">A True Masterpierce, Bravo!</h3>
                         <p class="mb-4">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint exercitationem illo quibusdam laboriosam recusandae, quaerat excepturi nesciunt quasi consectetur asperiores consequatur at unde repellendus cumque ea? Magni laborum quos molestias.
@@ -57,7 +57,7 @@ export default {
                         <p class="m-0 fw-medium">Gerald Hendley, The Guardian</p>                            
                     </div>
 
-                    <div class="message p-4 card rounded-0 mt-5 border-0">
+                    <div class="bg-section p-4 card rounded-0 mt-5 border-0">
                         <h3 class="font mb-3 fw-bold fs-4 pt-3">A Unique View On The World</h3>
                         <p class="mb-4">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint exercitationem illo quibusdam laboriosam recusandae, quaerat excepturi nesciunt quasi consectetur asperiores consequatur at unde repellendus cumque ea? Magni laborum quos molestias.
@@ -103,15 +103,9 @@ export default {
 
 
 
-    .about, .critics, .dig{
+    .critics{
         margin: 100px 0;
     }
-    .audible, .upcoming, .articles{
-        background-color: $bfg_section;
-    }
-
-
-
     .testimonial{
         background-image: url(../assets/img/testimonial2-2x.jpg);
         background-size: cover;
@@ -132,8 +126,5 @@ export default {
         background-color: $yellow;
         width: 240px;
         height: 40px;
-    }
-    .message{
-        background-color: $bfg_section;
     }
 </style>

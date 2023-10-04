@@ -19,7 +19,7 @@ export default {
                 <div class="col-8">
                     <div class="card bg-transparent border-0">
                         <h2 class="font fs-1 fw-bold m-0">Recent Articles</h2>
-                        <h5 style="color: #49a987;" class="fw-medium pt-3 pb-4 m-0">READ THE LATEST ENTRIES</h5>
+                        <h5 class="green fw-medium pt-3 pb-4 m-0">READ THE LATEST ENTRIES</h5>
                     </div>
                     <div class="card p-5 border-0 rounded-0">
                         <img src="../assets/img/20-Tips-800x471.jpg" class="card-img-top rounded-0" alt="">
@@ -93,13 +93,13 @@ export default {
 
 
 
-    .about, .critics, .dig{
-        margin: 100px 0;
-    }
-    .audible, .upcoming, .articles{
+    .articles{
         background-color: $bfg_section;
-    }
-    .upcoming, .articles{
         padding: 80px 0;
+    }
+    .read{
+        background-color: $yellow;
+        width: 240px;
+        height: 40px;
     }
 </style>

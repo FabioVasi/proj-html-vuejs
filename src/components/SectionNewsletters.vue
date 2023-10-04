@@ -22,16 +22,16 @@ export default {
                             <h2 class="audio-book text-white fs-1 mb-3">
                                 Subscribe To My Newsletter
                             </h2>
-                            <h6 class="read-time mt-3 mb-5">BE NOTIFIED ABOUT BOOK SIGNING TOUR DATES</h6>
+                            <h6 class="yellow mt-3 mb-5">BE NOTIFIED ABOUT BOOK SIGNING TOUR DATES</h6>
                             <form class="row g-3">
                                 <div class="col-8 ps-5">
-                                    <input style="height: 50px;" type="text" class="form-control" placeholder="Insert your email ...*">
+                                    <input type="text" class="form-control" placeholder="Insert your email ...*">
                                 </div>
                                 <div class="col-4">
-                                    <button style="height: 50px;" type="submit" class="btn text-white fw-medium meet">Subscribe</button>
+                                    <button type="submit" class="btn text-white fw-medium meet">Subscribe</button>
                                 </div>
                             </form>
-                            <p style="color: #c6c4c4;" class="mt-5">
+                            <p class="mt-5 grey-l">
                                 Donec fringilla nunc eu turpis dignissim, at euismod sapien tincidunt. Maecenas eleifend congue cursus.
                             </p>
                         </div>   
@@ -72,19 +72,6 @@ export default {
 
 
 
-
-    .about, .critics, .dig{
-        margin: 100px 0;
-    }
-    .audible, .upcoming, .articles{
-        background-color: $bfg_section;
-    }
-    .upcoming, .articles{
-        padding: 80px 0;
-    }
-
-
-
     .banner-two{
         background-image: url(../assets/img/banner-2.jpg);
         background-size: cover;
@@ -95,5 +82,13 @@ export default {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+    .meet{
+        background-color: $green;
+        width: 200px;
+        height: 50px;
+    }
+    input{
+        height: 50px;
     }
 </style>

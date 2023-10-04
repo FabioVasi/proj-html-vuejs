@@ -59,8 +59,8 @@ export default {
                             <h2 class="audio-book text-white fs-1">
                                 New Audiobook
                             </h2>
-                            <h6 class="read-time mt-2">NO TIME TO READ? NO PROBLEM. LISTEN TO IT</h6>
-                            <p style="color: #c6c4c4;" class="mt-3">
+                            <h6 class="yellow mt-2">NO TIME TO READ? NO PROBLEM. LISTEN TO IT</h6>
+                            <p class="mt-3 grey-l">
                                 Donec fringilla nunc eu turpis dignissim, at euismod sapien tincidunt. Maecenas eleifend congue cursus.
                             </p>
                             <div class="d-flex justify-content-center align-items-center">
@@ -117,15 +117,6 @@ export default {
 
 
 
-    .about, .critics, .dig{
-        margin: 100px 0;
-    }
-
-
-
-    .audible, .upcoming, .articles{
-        background-color: $bfg_section;
-    }
     .banner-one{
         background-image: url(../assets/img/banner.jpg);
         background-size: cover;
@@ -141,8 +132,5 @@ export default {
     }
     .audio-book{
         font-family: 'Times New Roman', Times, serif;
-    }
-    .read-time{
-        color: $yellow;
     }
 </style>

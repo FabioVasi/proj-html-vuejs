@@ -15,14 +15,14 @@ export default {
             
         <div class="container text-center">
             <h2 class="font fs-1 fw-bold m-0">Dig A Little Deeper Into Damon Vaughn</h2>
-            <h5 style="color: #49a987;" class="fw-medium pt-3 pb-5 m-0">FIND OUT MORE ABOUT AUTHOR HIMSELF</h5>
+            <h5 class="fw-medium pt-3 pb-5 m-0 green">FIND OUT MORE ABOUT AUTHOR HIMSELF</h5>
             <div class="row">
                 <div class="col-4 pe-4">
                     <div class="me card border-0">
                         <div class="darkin">
                             <h3 class="text-white pb-3 m-0">About Me</h3>
                             <div class="border-bottom border-dark-subtle mb-4 w-25"></div>
-                            <p class="pb-4 m-0 fw-medium read-time">Vestibulum ante ipsum primis</p>
+                            <p class="pb-4 m-0 fw-medium yellow">Vestibulum ante ipsum primis</p>
                         </div>
                     </div>
                 </div>
@@ -31,7 +31,7 @@ export default {
                         <div class="darkin">
                             <h3 class="text-white pb-3 m-0">My Latest Book</h3>
                             <div class="border-bottom border-dark-subtle mb-4 w-25"></div>
-                            <p class="pb-4 m-0 fw-medium read-time">Vestibulum ante ipsum primis</p>
+                            <p class="pb-4 m-0 fw-medium yellow">Vestibulum ante ipsum primis</p>
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ export default {
                         <div class="darkin">
                             <h3 class="text-white pb-3 m-0">Book Signing</h3>
                             <div class="border-bottom border-dark-subtle mb-4 w-25"></div>
-                            <p class="pb-4 m-0 fw-medium read-time">Vestibulum ante ipsum primis</p>
+                            <p class="pb-4 m-0 fw-medium yellow">Vestibulum ante ipsum primis</p>
                         </div>
                     </div>
                 </div>
@@ -78,18 +78,9 @@ export default {
 
 
 
-    .about, .critics, .dig{
+    .dig{
         margin: 100px 0;
     }
-    .audible, .upcoming, .articles{
-        background-color: $bfg_section;
-    }
-    .upcoming, .articles{
-        padding: 80px 0;
-    }
-
-
-
     .me{
         background-image: url(../assets/img/box-1.jpg);
         background-size: cover;
