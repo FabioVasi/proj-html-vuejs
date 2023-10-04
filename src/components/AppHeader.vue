@@ -1,4 +1,6 @@
 <script>
+import AppLogo from './AppLogo.vue';
+
 export default {
     name: 'AppHeader',
     data() {
@@ -28,6 +30,9 @@ export default {
                 }
             ]
         }
+    },
+    components: {
+        AppLogo
     }
 }
 </script>
@@ -39,10 +44,11 @@ export default {
         <div class="pseudo_container">
             <div class="navigation d-flex justify-content-between">
                 <div>
-                    <img src="../assets/img/author-logo-round-200x205.png" alt="">
+                    <AppLogo/>
                 </div>
                 
                 <div class="navbar p-0">
+
                     <ul class="d-flex justify-content-evenly p-0">
                         <li v-for="list in lists">
                             <a class="active" href="#">{{ list.link }}</a>
@@ -53,6 +59,7 @@ export default {
                             </a>
                         </li>
                     </ul>
+                    
                 </div>                
             </div>
         </div>
