@@ -15,6 +15,7 @@ export default {
 
         <div class="container mb-5">
             <div class="row">
+
                 <div class="col-3">
                     <div>
                         <a href="#">
@@ -43,18 +44,22 @@ export default {
                         </a>
                     </div>
                 </div>
+                
             </div>
         </div>
 
         <div class="banner-one">
+
             <div class="container text-center">
                 <div class="row">
+
                     <div class="col-6">
                         <div class="">
                             <img class="smartphone" height="500px" src="../assets/img/audible-app-2x-400x418.png" alt="">
                         </div>                         
                     </div>
                     <div class="col-6">
+
                         <div class="new-kindle ps-5 pe-5">
                             <h2 class="audio-book text-white fs-1">
                                 New Audiobook
@@ -64,6 +69,7 @@ export default {
                                 Donec fringilla nunc eu turpis dignissim, at euismod sapien tincidunt. Maecenas eleifend congue cursus.
                             </p>
                             <div class="d-flex justify-content-center align-items-center">
+
                                 <div class="col-4 text-white">
                                     <a href="#">
                                         <img src="../assets/img/audible-logo.png" alt="">
@@ -79,11 +85,15 @@ export default {
                                         <img src="../assets/img/kindle-logo-tall.png" alt="">
                                     </a>
                                 </div>
+
                             </div>
-                        </div>    
+                        </div>
+                        
                     </div>
+
                 </div>
             </div>
+
         </div>
 
     </section>

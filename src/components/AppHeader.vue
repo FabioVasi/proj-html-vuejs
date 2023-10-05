@@ -42,6 +42,7 @@ export default {
     <header id="header_app">
 
         <div class="pseudo_container">
+
             <div class="navigation d-flex justify-content-between">
                 <div>
                     <AppLogo/>
@@ -62,10 +63,13 @@ export default {
                     
                 </div>                
             </div>
+
         </div>
 
         <div class="author d-flex flex-wrap">
+
             <div class="col-6 mt-5">
+
                 <div class="mt-5">
                     <h2 class="">Damon Vaughn</h2>
                     <h3 class="best-seller text-white">
@@ -80,11 +84,14 @@ export default {
                             <svg class="arrow icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
                         </div>
                     </div>
-                </div>               
+                </div>  
+
             </div>
 
             <div style="padding-left: 150px;" class="col-6">
+
                 <div class="squares me-4 mb-5">
+                    
                     <div class="sales card mb-2 d-flex justify-content-center align-items-center">
                         <svg class="fs-3" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M152.2 236.4c-7.7-8.2-19.7-7.7-24.8 2.8L1.6 490.2c-5 10 2.4 21.7 13.4 21.7h175c5.8.1 11-3.2 13.4-8.4 37.9-77.8 15.1-196.3-51.2-267.1zM244.4 8.1c-122.3 193.4-8.5 348.6 65 495.5 2.5 5.1 7.7 8.4 13.4 8.4H497c11.2 0 18.4-11.8 13.4-21.7 0 0-234.5-470.6-240.4-482.3-5.3-10.6-18.8-10.8-25.6.1z"/></svg>
                         <p class="mt-1 mb-0 fw-medium">Demos</p>
@@ -93,9 +100,11 @@ export default {
                         <div class="green fs-2 fw-medium m-0 d-flex justify-content-center align-items-center"><p class="fs-5 pb-2 m-0">$</p>39</div>
                         <p class="mb-1 fw-medium">On Sale</p>
                     </div>
+
                 </div>
 
                 <div class="advertising bg-white p-5">
+
                     <div class="d-flex flex-wrap">
                         <div class="col-6">
                             <img src="../assets/img/book-widget.png" alt="">
@@ -108,6 +117,7 @@ export default {
                     </div>
                     
                     <div class="col-12 text-center">
+
                         <div class="btn-group" role="group">
                             <button type="button" class="btn left d-flex justify-content-center align-items-center">
                                 <svg class="fs-4" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M257.2 162.7c-48.7 1.8-169.5 15.5-169.5 117.5 0 109.5 138.3 114 183.5 43.2 6.5 10.2 35.4 37.5 45.3 46.8l56.8-56S341 288.9 341 261.4V114.3C341 89 316.5 32 228.7 32 140.7 32 94 87 94 136.3l73.5 6.8c16.3-49.5 54.2-49.5 54.2-49.5 40.7-.1 35.5 29.8 35.5 69.1zm0 86.8c0 80-84.2 68-84.2 17.2 0-47.2 50.5-56.7 84.2-57.8v40.6zm136 163.5c-7.7 10-70 67-174.5 67S34.2 408.5 9.7 379c-6.8-7.7 1-11.3 5.5-8.3C88.5 415.2 203 488.5 387.7 401c7.5-3.7 13.3 2 5.5 12zm39.8 2.2c-6.5 15.8-16 26.8-21.2 31-5.5 4.5-9.5 2.7-6.5-3.8s19.3-46.5 12.7-55c-6.5-8.3-37-4.3-48-3.2-10.8 1-13 2-14-.3-2.3-5.7 21.7-15.5 37.5-17.5 15.7-1.8 41-.8 46 5.7 3.7 5.1 0 27.1-6.5 43.1z"/></svg>
@@ -118,10 +128,13 @@ export default {
                                 <p class="m-0 fs-5 fw-medium ps-2">Buy On AppStore</p>
                             </button>
                         </div>
+
                     </div>
 
                 </div>
+
             </div>
+
         </div>
             
     </header>

@@ -17,10 +17,12 @@ export default {
             <div class="row">
                 
                 <div class="col-8">
+
                     <div class="card bg-transparent border-0">
                         <h2 class="font fs-1 fw-bold m-0">Recent Articles</h2>
                         <h5 class="green fw-medium pt-3 pb-4 m-0">READ THE LATEST ENTRIES</h5>
                     </div>
+
                     <div class="card p-5 border-0 rounded-0">
                         <img src="../assets/img/20-Tips-800x471.jpg" class="card-img-top rounded-0" alt="">
                         <div class="card-body">
@@ -33,14 +35,17 @@ export default {
                             </h6>
                         </div>
                     </div>
+
                 </div>
 
                 <div class="col-4">
+
                     <div class="card bg-transparent border-0 pb-5">
                         <button class="read mt-4 align-self-end border-0 text-white rounded-3 fw-bold">
                             All Articles
                         </button>
                     </div>
+                    
                     <div class="card p-5 border-0 rounded-0">
                         <img src="../assets/img/thumb-13-2x-320x202.jpg" class="card-img-top rounded-0" alt="">
                         <div class="card border-0">
@@ -57,6 +62,7 @@ export default {
                             </p>
                         </div>
                     </div>
+
                 </div>
 
             </div>

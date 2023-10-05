@@ -14,6 +14,7 @@ export default {
     <section class="about">
 
         <div class="container text-center">
+
             <h1 class="font">
                 More About Damon Vaughn
             </h1>
@@ -23,6 +24,7 @@ export default {
             <button class="meet border-0 text-white rounded-3 fw-bold">
                 Meet The Author
             </button>
+            
         </div>
 
     </section>

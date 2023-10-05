@@ -16,10 +16,12 @@ export default {
         <div class="container">
             <div class="row">
                 <div class="col-8 pe-5">
+
                     <div class="card border-0">
                         <h2 class="font mb-4 fw-bold fs-1">What The Critics Say</h2>
                         <h6 class="mb-4 green">TESTIMONIALS FROM AROUND THE WORLD</h6>
                     </div>
+                    
                     <div class="testimonial text-white text-start">
                         <div class="shadow">
                             <h2 class="font fs-1 fw-bold border-bottom m-0 border-dark-subtle pb-5">Best Author Of His Generation</h2>
@@ -38,9 +40,11 @@ export default {
                             </p>
                         </div>
                     </div>
+
                 </div>
 
                 <div class="col-4 ps-5 text-center">
+
                     <div class="card border-0">
                         <button class="read mt-4 align-self-end border-0 text-white rounded-3 fw-bold">
                             Read All Testimonials

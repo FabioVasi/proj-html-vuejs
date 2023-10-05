@@ -51,6 +51,7 @@ export default {
             </div>
 
             <div class="col-10">
+
                 <div class="container">
                     <div class="row g-5">
 
@@ -112,7 +113,8 @@ export default {
 
                     </div>
                 </div>
-          </div>
+
+            </div>
 
         </div>
 
@@ -129,6 +131,7 @@ export default {
                 </div>            
             </div>
         </div>
+        
         <div class="d-flex justify-content-end">
             <div class="up">
                 <a href="#">
