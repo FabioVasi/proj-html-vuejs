@@ -12,7 +12,7 @@ export default {
 <template>
 
     <section class="critics">
-
+        <!--testimonials and critics-->
         <div class="container">
             <div class="row">
                 <div class="col-8 pe-5">

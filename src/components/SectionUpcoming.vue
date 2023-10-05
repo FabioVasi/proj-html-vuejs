@@ -12,7 +12,7 @@ export default {
 <template>
 
     <section class="upcoming">
-
+        <!--upcoming-->
         <div class="container text-center">
             <h2 class="font fs-1 fw-bold m-0">Upcoming Events</h2>
             <h5 class="yellow fw-medium pt-3 pb-5 m-0">MEET THE AUTHOR IN PERSON</h5>

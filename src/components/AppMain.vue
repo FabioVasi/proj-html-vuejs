@@ -29,20 +29,20 @@ export default {
 <template>
 
     <main id="main_app">
+        <!--section import-->
+        <SectionAbout/><!--first-->
 
-        <SectionAbout/>
+        <SectionAudible/><!--second-->
 
-        <SectionAudible/>
+        <SectionCritics/><!--third-->
 
-        <SectionCritics/>
+        <SectionUpcoming/><!--fourth-->
 
-        <SectionUpcoming/>        
+        <SectionNewsletters/><!--fifth-->
 
-        <SectionNewsletters/>
+        <SectionDig/><!--sixth-->
 
-        <SectionDig/>
-
-        <SectionArticles/>
+        <SectionArticles/><!--seventh-->
         
     </main>
 

@@ -54,7 +54,7 @@ export default {
 
                 <div class="container">
                     <div class="row g-5">
-
+                        <!--author section shortcut-->
                         <div class="col-4">
                             <div class="card text-white border-0 bg-transparent pe-3">
                                 <h4 class="m-0 pb-4">ABOUT ME</h4>
@@ -63,7 +63,7 @@ export default {
                                 </p>
                             </div>
                         </div>
-
+                        <!--utility links-->
                         <div class="col-4">
                             <div class="card text-white border-0 bg-transparent">
                                 <h4 class="m-0 pb-4">USEFUL LINKS</h4>
@@ -74,7 +74,7 @@ export default {
                                 </ul>
                             </div>
                         </div>
-
+                        <!--utility contact-->
                         <div class="col-4">
 
                             <div class="card text-white border-0 bg-transparent">
@@ -89,7 +89,7 @@ export default {
                                         </a>
                                     </li>                        
                                 </ul>
-                                
+                                <!--socials icon-->
                                 <div class="pt-4">
                                     <a href="#">
                                         <svg class="icon pe-3 ps-3" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
@@ -119,6 +119,7 @@ export default {
         </div>
 
         <div class="container pb-4">
+            <!--copyright information-->
             <div class="row">
                 <div class="col-12">
                     <div class="card copyright pt-5 border-0 bg-transparent text-center">
@@ -130,14 +131,17 @@ export default {
                     </div>
                 </div>            
             </div>
+
         </div>
         
         <div class="d-flex justify-content-end">
+
             <div class="up">
                 <a href="#">
                     <svg class="chevron" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"/></svg>
                 </a>
             </div>
+
         </div>
 
     </footer>

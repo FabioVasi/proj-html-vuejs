@@ -39,7 +39,7 @@ export default {
                 </div>
 
                 <div class="col-4">
-
+                    <!--articles-->
                     <div class="card bg-transparent border-0 pb-5">
                         <button class="read mt-4 align-self-end border-0 text-white rounded-3 fw-bold">
                             All Articles

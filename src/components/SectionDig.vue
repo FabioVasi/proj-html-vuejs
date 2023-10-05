@@ -12,7 +12,7 @@ export default {
 <template>
     
     <section class="dig">
-            
+        <!--more info aabout author-->
         <div class="container text-center">
             <h2 class="font fs-1 fw-bold m-0">Dig A Little Deeper Into Damon Vaughn</h2>
             <h5 class="fw-medium pt-3 pb-5 m-0 green">FIND OUT MORE ABOUT AUTHOR HIMSELF</h5>

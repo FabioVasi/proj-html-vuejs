@@ -12,7 +12,7 @@ export default {
 <template>
 
     <section class="newsletters">
-            
+        <!--submit the newsletters-->
         <div class="banner-two">    
             <div class="container h-100 text-center">
                 <div class="row h-100">
